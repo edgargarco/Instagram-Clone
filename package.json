@@ -12,7 +12,8 @@
     "proxy": "gulp watch-proxy",
     "static:dev": "gulp static-dev",
     "static:build": "gulp static-build",
-    "imgs": "gulp imagemin"
+    "imgs": "gulp imagemin",
+    "format": "prettier --write \"public/**/*.{js,html,css,scss}\""
   },
   "author": "",
   "license": "ISC",
