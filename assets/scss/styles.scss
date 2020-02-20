@@ -47,9 +47,9 @@ header {
     background: white;
     margin: 0 auto;
     width: 500px;
-    height: 600px;
     border: 1px solid #ccc;
     border-radius: 2px;
+    overflow: auto;
 
     .card-header {
       padding: 15px;
@@ -81,6 +81,75 @@ header {
         display: inline-block;
         top: 10px;
         position: relative;
+      }
+    }
+    .content {
+      img {
+        width: 100%;
+      }
+    }
+    .card-footer {
+      box-sizing: border-box;
+      padding: 15px;
+      .description {
+        p {
+          margin: 0;
+          font-size: 14px;
+          padding: 0 0 5px 0;
+        }
+        .username {
+          font-weight: 700;
+          font-family: "Open Sans", sans-serif;
+        }
+      }
+      .likes {
+        color: #111;
+        font-size: 12px;
+        padding-bottom: 10px;
+      }
+      .comments {
+        p {
+          margin: 0;
+          font-size: 14px;
+          padding: 0 0 5px 0;
+        }
+        .username {
+          font-weight: 700;
+          font-family: "Open Sans", sans-serif;
+        }
+      }
+      .form {
+        padding-top: 15px;
+        .fas {
+          font-size: 24px;
+        }
+        .heart {
+          width: 7%;
+          display: inline-block;
+          .fa {
+            position: relative;
+            top: 3px;
+          }
+        }
+        .add-comment {
+          width: 70%;
+          display: inline-block;
+          input {
+            width: 100%;
+            padding: 5px;
+            font-weight: 16px;
+            border: 0px solid #fff;
+          }
+        }
+        .options {
+          width: 7%;
+          display: inline-block;
+          float: right;
+          .fa {
+            position: relative;
+            top: 3px;
+          }
+        }
       }
     }
   }
